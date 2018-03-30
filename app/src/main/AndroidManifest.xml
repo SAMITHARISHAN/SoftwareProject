@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="projectv2.technocoders.com.finalproject">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mainicon"
+        android:label="E-builders"
+        android:roundIcon="@drawable/mainicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash.SplashTime">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login.Login"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".home.Navigation1" />
+        <activity android:name=".home.attendance.Attendance" />
+        <activity android:name=".home.leave.Leave" />
+        <activity android:name=".home.notification.Notification" />
+        <activity android:name=".home.schedule.Schedule" />
+        <activity android:name=".home.leave.applydutyleave.ApplydutyLeave" />
+        <activity android:name=".home.leave.applyleave.ApplyLeave" />
+        <activity android:name=".home.leave.leavecharts.Leavecharts" />
+        <activity android:name=".home.leave.leavedetails.LeaveDetails" />
+        <activity android:name=".home.attendance.attendancecharts.AttendanceCharts" />
+        <activity android:name=".home.attendance.attendancereports.AttendanceDetails" />
+        <activity android:name=".home.attendance.attendancestats.AttendanceStats" />
+        <activity android:name=".home.attendance.attendancecharts.annual.AnnualattendanceCharts" />
+        <activity android:name=".home.attendance.attendancecharts.monthly.MonthlyattendanceCharts" />
+        <activity android:name=".home2.Navigation2" />
+        <activity android:name=".home.leave.leavedetails.availableleavedetails.AvailableLeaves" />
+        <activity android:name=".home.leave.leavedetails.leavetakendetails.LeaveTakenDetails" />
+        <activity android:name=".home.schedule.shedulerecyclerview.ScheduleList" />
+        <activity android:name=".home2.viewemployeedata.ViewEmployeeData" />
+        <activity android:name=".home2.viewemployeedata.viewemployeeatt_data.ViewEmployeeAtt_data" />
+        <activity android:name=".home2.viewemployeedata.viewemployeeleave_data.ViewEmployeeleave_data" />
+        <activity android:name=".home2.viewemployeedata.viewemployee_location.ViewEmployee_location" />
+        <activity android:name=".home2.viewemployeedata.viewemployee_location.viewlocationofemployees.ViewEmployeeDutyLeaveLocation" />
+        <activity android:name=".home2.viewemployeedata.viewemployeecharts.Viewemployee_charts" />
+        <activity android:name=".home2.viewemployeedata.viewemployeecharts.viewemployeeannual_leavecharts.Viewemployee_Annual_LeaveCharts" />
+        <activity android:name=".home2.viewemployeedata.viewemployeecharts.viewemployeemonthly_leavecharts.Viewemployee_Monthly_LeaveCharts" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".home2.viewemployeedata.viewemployee_location.viewlocationofemployees.map.LocationTracking_Map"
+            android:label="@string/title_activity_location_tracking__map" />
+        <activity android:name=".home2.handlingemployeeLeaverequests.HandlingEMP_LeaveRequests" />
+        <activity android:name=".home2.handlingemployeeLeaverequests.accept_reject_EMP_leaves.Employee_Accept_Reject_Leaves" />
+
+        <service
+            android:name=".NotificationService"
+            android:exported="false" />
+
+        <activity android:name=".home.leave.leavecharts.casual.CasualLeave_details" />
+        <activity android:name=".home.leave.leavecharts.half_day.HalfDay_details" />
+        <activity android:name=".home.leave.leavecharts.medical.MedicalLeave_details" />
+        <activity android:name=".home.leave.leavecharts.short_leave.ShortLeave_details" />
+        <activity android:name=".home.leave.leavedetails.leavetakendetails.editandleavedetails.EditAndDelete_leaves"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="projectv2.technocoders.com.finalproject.home.Navigation1"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="180sp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:clipToPadding="false"
+        tools:ignore="UselessLeaf" >
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/leavetakendetails_card"
+            android:layout_width="160dp"
+            android:layout_height="190dp"
+            android:layout_margin="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/pinkpurple"
+                android:orientation="vertical"
+                android:gravity="center"
+                tools:ignore="UseCompoundDrawables">
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/circle_background_navigation1"
+                    android:src="@drawable/attendancegraphicon"
+                    android:padding="10dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:text="Leave Taken Details"
+                    android:textAlignment="center"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="180sp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:clipToPadding="false"
+        tools:ignore="UselessLeaf" >
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/remainingleaves_card"
+            android:layout_width="160dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/pinkpurple"
+                android:orientation="vertical"
+                android:gravity="center"
+                tools:ignore="UseCompoundDrawables">
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/circle_background_navigation1"
+                    android:src="@drawable/attendancegraphicon"
+                    android:padding="10dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:text="Available Leaves"
+                    android:textAlignment="center"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</LinearLayout>

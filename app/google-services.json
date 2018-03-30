@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "553082174421",
+    "firebase_url": "https://notifications-65552.firebaseio.com",
+    "project_id": "notifications-65552",
+    "storage_bucket": "notifications-65552.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553082174421:android:21fc423ca1ea2e62",
+        "android_client_info": {
+          "package_name": "projectv2.technocoders.com.finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553082174421-uu4echfhv6jh5r0c1ds7br9fr2g31adv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4A9YOw6KeDkXH6XwExssVtOdJJYLCoSY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553082174421-uu4echfhv6jh5r0c1ds7br9fr2g31adv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

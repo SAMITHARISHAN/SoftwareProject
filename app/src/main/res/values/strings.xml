@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="logout">logout</string>
+    <string name="schedule">schedule</string>
+    <string name="search">search</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="attendance">attendance</string>
+    <string name="leave">leave</string>
+    <string name="attendance_charts">attendance Charts</string>
+
+    <string name="leavecategory">Spinner LeaveType </string>
+
+    <string-array name="leavetypes">
+        <item>Select Type</item>
+        <item>Casual</item>
+        <item>Medical</item>
+        <item>Half Day</item>
+        <item>Short Leave</item>
+    </string-array>
+    <string name="title_activity_location_tracking__map">Map</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

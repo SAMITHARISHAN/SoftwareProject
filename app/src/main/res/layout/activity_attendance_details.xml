@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="projectv2.technocoders.com.finalproject.home.leave.leavedetails.leavetakendetails.LeaveTakenDetails">
+
+    <Button
+        android:id="@+id/begintimeattendancedetails"
+        android:text="SELECT START DATE"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/endtimeattendancedetails"
+        android:text="SELECT END DATE"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/buttonsendattendancedetails"
+        android:text="SEND REQUEST"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="5dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:orientation="horizontal">
+        <TextView
+            android:text="DATE"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="CHECKING"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="CHECKOUT"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="WORKING HOURS"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/item_list_attendancedetails"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:scrollbars="vertical"
+        />
+
+</LinearLayout>

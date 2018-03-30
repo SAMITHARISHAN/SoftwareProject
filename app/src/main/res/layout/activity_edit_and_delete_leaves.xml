@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="projectv2.technocoders.com.finalproject.home.Navigation1"
+    android:weightSum="30"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/textappform"
+            android:text="APPLICATION FORM"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/textdate"
+            android:text="Date"
+            android:textSize="20sp"
+            android:paddingLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+        <Button
+            android:id="@+id/buttonleaveDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="35dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:ignore="LabelFor,RelativeOverlap,TextFields" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/textreason"
+            android:text="Reason"
+            android:textSize="20sp"
+            android:paddingLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/editTextReason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="35dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:ignore="LabelFor,RelativeOverlap" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="5"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/textleavecategory"
+            android:text="Leave Category"
+            android:textSize="20sp"
+            android:paddingLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/SpinnerLeaveCategory"
+            android:layout_width="150dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            tools:ignore="RtlHardcoded" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/ButtonEditLeaveSend"
+            android:layout_height="80dp"
+            android:layout_width="150dp"
+            android:text="EDIT LEAVE"
+            android:layout_marginLeft="150dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="4"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/ButtonDeleteLeaveSend"
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            android:text="DELETE LEAVE" />
+    </RelativeLayout>
+
+</LinearLayout>
